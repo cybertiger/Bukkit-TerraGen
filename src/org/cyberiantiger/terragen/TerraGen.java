@@ -4,11 +4,8 @@
  */
 package org.cyberiantiger.terragen;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -33,21 +30,19 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.block.BlockIgniteEvent;
 import org.bukkit.event.block.BlockPhysicsEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
-import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.cyberiantiger.minecraft.unsafe.CBShim;
+import org.cyberiantiger.minecraft.unsafe.NBTTools;
 import org.cyberiantiger.terragen.command.CommandSystem;
 import org.cyberiantiger.terragen.generator.EvilGeneratorFactory;
 import org.cyberiantiger.terragen.generator.FlatGeneratorFactory;
 import org.cyberiantiger.terragen.generator.GeneratorFactory;
 import org.cyberiantiger.terragen.generator.PlotGeneratorFactory;
 import org.cyberiantiger.terragen.generator.VoidGeneratorFactory;
-import org.cyberiantiger.terragen.instance.CreateInstance;
-import org.cyberiantiger.terragen.nbt.Tag;
 import org.cyberiantiger.terragen.object.BO2Support;
 import org.cyberiantiger.terragen.object.ObjectTemplate;
-import org.cyberiantiger.terragen.unsafe.NBTTools;
 
 /**
  *
@@ -59,10 +54,11 @@ public class TerraGen extends JavaPlugin implements Listener {
     public static final String TOOL_ID = "tool.id";
     public static final Material DEFAULT_TOOL_SELECTION = Material.STICK;
     public static final Material DEFAULT_TOOL_ID = Material.BONE;
-    private final NBTTools tools = new NBTTools();
+    private NBTTools tools;
 
     @Override
     public void onEnable() {
+        tools = CBShim.getShim(NBTTools.class, getServer());
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(this, this);
         File templateDir = getTemplateDir();

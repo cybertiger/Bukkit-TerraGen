@@ -8,7 +8,7 @@ package org.cyberiantiger.terragen.object;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.bukkit.Material;
-import org.cyberiantiger.terragen.nbt.Tag;
+import org.cyberiantiger.minecraft.nbt.Tag;
 
 /**
  *

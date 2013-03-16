@@ -5,27 +5,13 @@
 
 package org.cyberiantiger.terragen.command;
 
-import java.lang.reflect.Field;
-import java.util.Collection;
-import java.util.EnumMap;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import net.minecraft.server.v1_4_R1.NBTBase;
-import net.minecraft.server.v1_4_R1.NBTTagCompound;
-import net.minecraft.server.v1_4_R1.TileEntity;
-import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.block.BlockState;
-import org.bukkit.block.Sign;
 import org.bukkit.command.CommandSender;
-import org.bukkit.craftbukkit.v1_4_R1.block.CraftCreatureSpawner;
 import org.bukkit.entity.Player;
+import org.cyberiantiger.minecraft.nbt.CompoundTag;
 import org.cyberiantiger.terragen.Selection;
 import org.cyberiantiger.terragen.SelectionIterator;
 import org.cyberiantiger.terragen.TerraGen;
-import org.cyberiantiger.terragen.nbt.CompoundTag;
 
 /**
  *

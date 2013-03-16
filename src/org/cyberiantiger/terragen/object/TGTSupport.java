@@ -6,15 +6,14 @@
 package org.cyberiantiger.terragen.object;
 
 import java.io.BufferedOutputStream;
-import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Map;
 import java.util.zip.GZIPOutputStream;
+import org.cyberiantiger.minecraft.nbt.Tag;
+import org.cyberiantiger.minecraft.nbt.TagOutputStream;
 import org.cyberiantiger.terragen.Coord;
-import org.cyberiantiger.terragen.nbt.Tag;
-import org.cyberiantiger.terragen.nbt.TagOutputStream;
 
 /**
  *
