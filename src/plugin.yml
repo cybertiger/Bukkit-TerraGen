@@ -1,0 +1,10 @@
+name: "TerraGen"
+version: "33.33"
+main: "org.cyberiantiger.terragen.TerraGen"
+# website: "http://dev.bukkit.org/server-mods/skylandsplus/"
+load: startup
+commands:
+  tg:
+    description: TerraGen commands
+    usage: /tg copy|delete|export|exportall|list|reload|remove|rename|replace|spawn|spawnall|tool|update
+

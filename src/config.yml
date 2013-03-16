@@ -1,0 +1,12 @@
+tool:
+  selection:
+    ==: org.bukkit.inventory.ItemStack
+    type: STICK
+  id:
+    ==: org.bukkit.inventory.ItemStack
+    type: BONE
+fire:
+  fireball: true
+  lava: true
+  lightning: true
+  spread: true
