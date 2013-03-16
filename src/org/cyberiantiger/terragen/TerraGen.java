@@ -58,7 +58,7 @@ public class TerraGen extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
-        tools = CBShim.getShim(NBTTools.class, getServer());
+        tools = CBShim.createShim(NBTTools.class, this);
         saveDefaultConfig();
         getServer().getPluginManager().registerEvents(this, this);
         File templateDir = getTemplateDir();
