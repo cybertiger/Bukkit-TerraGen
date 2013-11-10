@@ -2,6 +2,7 @@ package org.cyberiantiger.terragen;
 
 import org.bukkit.Location;
 import org.bukkit.World;
+import org.cyberiantiger.minecraft.Coord;
 
 public class Selection {
 

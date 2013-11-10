@@ -12,7 +12,7 @@ import java.util.concurrent.Callable;
 import org.bukkit.Rotation;
 import org.bukkit.World;
 import org.bukkit.block.Block;
-import org.cyberiantiger.terragen.Coord;
+import org.cyberiantiger.minecraft.Coord;
 import org.cyberiantiger.terragen.Selection;
 import org.cyberiantiger.terragen.SelectionIterator;
 import org.cyberiantiger.terragen.TerraGen;

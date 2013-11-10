@@ -13,7 +13,7 @@ import org.bukkit.block.BlockState;
 import org.bukkit.block.Sign;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.cyberiantiger.terragen.Coord;
+import org.cyberiantiger.minecraft.Coord;
 import org.cyberiantiger.terragen.TerraGen;
 import org.cyberiantiger.terragen.object.ObjectTemplate;
 import org.cyberiantiger.terragen.object.Orientation;

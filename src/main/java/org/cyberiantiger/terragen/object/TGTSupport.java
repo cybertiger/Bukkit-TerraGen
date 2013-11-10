@@ -11,9 +11,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Map;
 import java.util.zip.GZIPOutputStream;
+import org.cyberiantiger.minecraft.Coord;
 import org.cyberiantiger.minecraft.nbt.Tag;
 import org.cyberiantiger.minecraft.nbt.TagOutputStream;
-import org.cyberiantiger.terragen.Coord;
 
 /**
  *

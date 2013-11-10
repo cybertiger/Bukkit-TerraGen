@@ -4,6 +4,8 @@
  */
 package org.cyberiantiger.terragen;
 
+import org.cyberiantiger.minecraft.Coord;
+
 /**
  *
  * @author antony

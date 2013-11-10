@@ -7,7 +7,7 @@ package org.cyberiantiger.terragen.command;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.cyberiantiger.terragen.Coord;
+import org.cyberiantiger.minecraft.Coord;
 import org.cyberiantiger.terragen.Selection;
 import org.cyberiantiger.terragen.TerraGen;
 import org.cyberiantiger.terragen.object.ObjectTemplate;

@@ -14,11 +14,9 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.util.Map;
-import java.util.Set;
-import java.util.TreeSet;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.cyberiantiger.terragen.Coord;
+import org.cyberiantiger.minecraft.Coord;
 
 /**
  *

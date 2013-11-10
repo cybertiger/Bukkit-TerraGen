@@ -9,7 +9,7 @@ import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.cyberiantiger.terragen.Coord;
+import org.cyberiantiger.minecraft.Coord;
 import org.cyberiantiger.terragen.TerraGen;
 import org.cyberiantiger.terragen.object.ObjectTemplate;
 import org.cyberiantiger.terragen.object.Orientation;

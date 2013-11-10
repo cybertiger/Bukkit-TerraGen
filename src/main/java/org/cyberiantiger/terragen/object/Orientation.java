@@ -4,7 +4,7 @@
  */
 package org.cyberiantiger.terragen.object;
 
-import org.cyberiantiger.terragen.Coord;
+import org.cyberiantiger.minecraft.Coord;
 import org.cyberiantiger.terragen.MatrixI3;
 
 /**

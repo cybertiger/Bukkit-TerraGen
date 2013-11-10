@@ -6,8 +6,6 @@
 package org.cyberiantiger.terragen.command;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
 import java.util.Map;
 import org.bukkit.command.CommandSender;
 import org.cyberiantiger.terragen.TerraGen;
